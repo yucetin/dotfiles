@@ -1,17 +1,39 @@
 {
-  "installed_packages":
-  [
-    "A File Icon",
-    "AdvancedNewFile",
-    "All Autocomplete",
-    "Babel",
-    "Emmet",
-    "ERB Snippets",
-    "Git",
-    "GitGutter",
-    "Package Control",
-    "SCSS",
-    "SublimeLinter",
-    "SublimeLinter-rubocop"
-  ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"WakaTime"
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"Agila Theme",
+		"All Autocomplete",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Colorsublime",
+		"Elixir",
+		"Elm Format on Save",
+		"Elm Syntax Highlighting",
+		"Emmet",
+		"ERB Snippets",
+		"Focus File on Sidebar",
+		"Git",
+		"GitGutter",
+		"HTMLAttributes",
+		"JSONComma",
+		"JsonTree",
+		"Material Color Scheme",
+		"Package Control",
+		"PlainTasks",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-rubocop",
+		"Sync Settings",
+		"WakaTime"
+	]
 }

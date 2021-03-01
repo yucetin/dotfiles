@@ -2,6 +2,11 @@
 alias ip="curl ipinfo.io/ip"
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip"
+# Clean terminal
+# Alias clear clear && printf '\e[3J'
 
 # Quickly serve the current directory as HTTP
 alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
+alias changes="git diff `git merge-base --fork-point master` --stat"
+alias next="{ git ls-files -o --exclude-standard & git diff --stat --name-only;} | cat | head -n 1 | pbcopy"
+alias done="{ git ls-files -o --exclude-standard & git diff --stat --name-only;} | cat | head -n 1 | xargs git add"

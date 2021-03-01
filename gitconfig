@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	editor = vim
 
 [alias]
   co = checkout
@@ -37,6 +37,8 @@
 
   # Removes a file from the index
   unstage = reset HEAD --
+	undo = reset --hard HEAD~1
+	grep = !git ls-files | grep -i
 
 [help]
   autocorrect = 1
@@ -49,3 +51,10 @@
 [user]
 	email = kemalyucetin@gmail.com
 	name = kemal yucetin
+
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[pull]
+	rebase = false
